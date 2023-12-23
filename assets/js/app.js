@@ -8,8 +8,8 @@ function generateQuiz() {
     const quizForm = document.getElementById("multiplicationQuizForm");
 
     for (let i = 1; i <= 12; i++) {
-        const minNumber = 1;
-        const maxNumber = 10;
+        const minNumber = 10;
+        const maxNumber = 99;
 
         const randomNumber1 = getRandomNumber(minNumber, maxNumber);
         const randomNumber2 = getRandomNumber(minNumber, maxNumber);
